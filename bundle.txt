@@ -1,0 +1,15 @@
+﻿Fabricjs 2.3.3
+Tooltipster v4.1.6
+Webcamjs v1.025
+/* Font Face Observer v2.0.13 - © Bram Stein. License: BSD-3-Clause */
+/* perfect-scrollbar v0.8.1 */
+/*! angular-spectrum-colorpicker v1.4.5 */
+/*jQuery UI Touch Punch 0.2.3*/
+/*Lodash 4.17.10*/
+/* Curved text */
+/*jQuery Mobile Events*/
+/* ImagesLoaded v4.1.4 */
+/* Masonry  */
+/* QR Code Generator */
+/* Spectrum Colorpicker v1.8.0 */
+/*! JsBarcode v3.6.0 | (c) Johan Lindell | MIT license */

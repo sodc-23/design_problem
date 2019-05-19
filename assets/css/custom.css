@@ -1,0 +1,104 @@
+/*Enter Your Custom CSS Here*/
+.tool_draw li a.menuUp {
+    opacity: 1;
+}
+
+.mskh-show-emails {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: #fff;
+    z-index: 99999;
+    border-radius: 10px;
+    box-shadow: 0px 2px 11px 0 rgba(255, 255, 255, 0.4);
+    padding: 30px 15px;
+    transform: translate(-50%, -50%);
+    min-width: 400px;
+    width: 50%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.maskh-info-wrapper {
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 99999;
+}
+
+.mskh-show-emails h2 {
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.mskh-show-emails ul {
+    list-style: none;
+    margin:0; 
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.mskh-show-emails ul li {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    font-size: 16px;
+}
+
+.mskh-show-emails ul li a {
+    color: #fff;
+}
+
+.mskh-show-emails ul li:before {
+    display: inline-block;
+    content: "";
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    background: url("../img/mail.svg") no-repeat center center;
+    background-size: 100%;
+
+}
+
+.mskh-show-emails .icon-close {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 30px;
+    transition: all .4s;
+    color: #fff;
+}
+
+.mskh-show-emails .icon-close:hover {
+    transform: scale(1.1);
+    color: #ef5350;
+}
+
+.mskh-show-emails svg {
+    display: block;
+}
+
+.mskh-show-emails .personal-info > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mskh-show-emails .bg-particle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background-image: linear-gradient(to right,#00c6ff,#0f5ae0 50%,#7202bb);
+}
